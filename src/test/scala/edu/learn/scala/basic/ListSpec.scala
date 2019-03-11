@@ -1,12 +1,13 @@
 package edu.learn.scala.basic
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.{FlatSpec, Ignore, Matchers}
 
 object ListSpec {
 
   val someList = List(1, 2, 3, 4, 5)
 }
 
+@Ignore
 class ListSpec extends FlatSpec with Matchers {
   import ListSpec._
 
